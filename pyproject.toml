@@ -1,0 +1,14 @@
+[project]
+name = "image-generation"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alex Jercan",email = "jercan_alex27@yahoo.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "src"
+]
